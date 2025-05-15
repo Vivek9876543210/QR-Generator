@@ -1,0 +1,80 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100%;
+            background: linear-gradient(rgb(216, 216, 211), rgb(203, 211, 203));
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            padding: 10px;
+            background-image: url(https://cdn1.vectorstock.com/i/1000x1000/64/50/black-and-white-background-on-a-soccer-theme-vector-26776450.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .main {
+            width: 330px;
+            height: 550px;
+            /* background-color: rgb(228, 223, 215); */
+            border-radius: 15px;
+            border: 2px solid rgba(176, 162, 180, 0.301);
+             background-color: rgba(0, 0, 0, 0.8);
+            text-transform: capitalize;
+            letter-spacing: 1.5px;
+            
+            
+
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            font-size: 25px;
+            border-radius: 6px;
+            border: none;
+            margin: 10px 0 2px 0;
+        }
+
+        button {
+            padding: 10px;
+            width: 90%;
+            font-size: 25px;
+            border-radius: 6px;
+            background-color: greenyellow;
+            letter-spacing: 3px;
+            margin: 10px 0 2px 0;
+            font-weight: 700;
+
+
+        }
+
+        button:checked {
+            background-color: rgb(26, 116, 26);
+            color: yellowgreen;
+        }
+
+        #heading {
+            border-radius: 13px 13px 0 0;
+            background-color: red;
+            background-image: linear-gradient(rgb(48, 48, 59), white);
+            padding-top: 10px;
+            color: whitesmoke;
+            text-shadow: 1px 2px 2px black;
+        }
+
+        #QRimg {
+            height: 60%;
+            width: 80%;
+            padding-top: 5px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+    
