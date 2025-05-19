@@ -7,7 +7,7 @@ function QRGenerator() {
     if (input.value=== "") {
         alert("please Enter valid URL");
         return;
-      //  input.focus();
+        input.focus();
 
     }
     else {
